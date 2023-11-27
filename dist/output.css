@@ -603,6 +603,10 @@ video {
   height: 100vh;
 }
 
+.h-full {
+  height: 100%;
+}
+
 .w-2\/3 {
   width: 66.666667%;
 }
@@ -773,6 +777,10 @@ video {
 
   .md\:hidden {
     display: none;
+  }
+
+  .md\:h-screen {
+    height: 100vh;
   }
 
   .md\:scale-100 {
