@@ -10,94 +10,37 @@
 <body class="h-screen">
     <section class="bg-[#D4D5C5] overflow-hidden  w-full md:h-screen h-full justify-center md:flex overscroll-none">
 
-        <div class=" absolute pt-5 flex flex-row gap-x-5 md:ml-0 ml-10 overflow-hidden md:hidden">
-            <div class="flex justify-center p-3 rounded-full bg-[#BBFF1A] slide-right-2">
-                <img src="./asset/home-icon.png" alt="">
-            </div>
-            <div class="flex justify-center p-3 rounded-full bg-[#BBFF1A] slide-right-2-after">
-                <img src="./asset/story-icon.png" alt="">
-            </div>
-        </div>
 
-        <div class="absolute w-full flex md:hidden justify-center pt-32">
-            <img src="./asset/Muelsyse-name.png" alt="" class="flicker-in-1">
-        </div>
+        <div class=" absolute flex w-full h-screen justify-center items-center">
 
-        <div class=" absolute flex flex-col w-full h-screen justify-center items-center gap-y-2">
 
-            <div class="md:flex flex-row hidden">
-
-                <div class="flex flex-row slide-left">
-                    <img src="./asset/pic-2a.png" alt="" class="rotate-center">
-                    <img src="./asset/pic-2a.png" alt="" class="rotate-center">
-                </div>
-
-                <div class="flex flex-row slide-right">
-                    <img src="./asset/pic-2b.png" alt="" class="rotate-center">
-                    <img src="./asset/pic-2b.png" alt="" class="rotate-center">
-                </div>
-
-            </div>
-
-            <div class="flex flex-row md:hidden w-full justify-center scale-in-center">
-
-                <div class="flex flex-row slide-left-sm">
-                    <img src="./asset/pic-2a.png" alt="" class="rotate-center">
-                    <img src="./asset/pic-2a.png" alt="" class="rotate-center">
-                </div>
-
-                <div class="flex flex-row slide-right-sm">
-                    <img src="./asset/pic-2b.png" alt="" class="rotate-center">
-                    <img src="./asset/pic-2b.png" alt="" class="rotate-center">
-                </div>
-
-            </div>
-
-            <img src="./asset/pic-1.png" alt="" class="flicker-in-1 md:scale-100 scale-75">
+            <img src="./asset/pic-1.png" alt="" class=" w-full blur-md">
             
 
         </div>
 
-        <div class="absolute top-40 right-10 slide-in-top md:flex hidden">
-            <img src="./asset/pic-5.png" alt="" class="">
-        </div>
 
-        <div class=" absolute top-40 left-10 md:flex hidden flex-row items-center gap-x-3 slide-right-1 ">
-            <img src="./asset/pic-3.png" alt="" class="">
-            <h1 class="font-medium text-xl ">Inventory</h1>
-        </div>
+
 
         <div class="relative top-20 flex flex-col w-full h-screen justify-center items-center">
 
-            <img src="./asset/Muelsyse.png" alt="" class="md:flex hidden scale-down-center object-cover w-fit ">
-            <img src="./asset/Muelsyse.png" alt="" class="flex md:hidden absolute bottom-20 scale-150 scale-down-center-1">
+            <img src="./asset/Muelsyse.png" alt="" class="absolute bottom-0 md:flex hidden scale-[0.9]">
+            <img src="./asset/Muelsyse.png" alt="" class="flex md:hidden absolute bottom-20 scale-150 ">
 
-            <div class="absolute md:flex hidden flex-col w-full h-screen justify-center">
-                <img src="./asset/pic-6.png" alt="" class="object-cover">
+
+            <div class="absolute md:flex hidden flex-col w-full h-screen justify-center bottom-[-800px] blur-sm">
+                <img src="./asset/pic-6.png" alt="" class="object-cover ">
             </div>
 
-            <div class="absolute flex md:hidden w-full h-screen justify-center">
-                <img src="./asset/pic-6.png" alt="" class="object-cover">
-            </div>
 
             <div class="absolute left-0 bottom-32 w-full">
 
-                <div class="w-full flex justify-center pb-10">
-                    <button class=" flex flex-row justify-between items-center px-10 rounded-full py-5 gap-x-10 bg-[#BBFF1A] shadow-3xl shadow-[#BBFF1A] hover:scale-105 transition-transform ease-in-out md:scale-100 scale-75">
-                        <h1 class="font-semibold text-xl">Discover</h1>
-                        <img src="./asset/arrow.png" alt="">
-                    </button>
-                </div>
-
-                <div class="bg-[#FFFEED] py-10 w-2/3 clip1 slide-left-1 md:flex hidden">
-                    <img src="./asset/pic-4.png" alt="" class="absolute top-3 left-10 flicker-in-1">
-                </div>
-                <div class=" relative bottom-[55px] w-full md:flex hidden justify-center slide-left-1">
-                    <a href="" class=" mx-10 font-medium text-xl">
-                        Home
-                    </a>
-                    <a href=""  class=" mx-10 font-medium text-xl">
-                        Story 
+                <div id="button" class="w-full flex justify-center pb-10">
+                    <a href="./home.html">
+                        <button class=" flex flex-row justify-between items-center px-10 rounded-full py-5 gap-x-10 bg-[#BBFF1A] shadow-3xl shadow-[#BBFF1A] hover:scale-105 transition-transform ease-in-out md:scale-100 scale-75">
+                            <h1 class="font-semibold text-xl">Discover</h1>
+                            <img src="./asset/arrow.png" alt="">
+                        </button>
                     </a>
                 </div>
                 
@@ -108,5 +51,7 @@
 
 
     </section>
+
+
 </body>
 </html>
